@@ -1,8 +1,5 @@
 <?php
 
-$fileName = "file.txt";
-$key = "A";
-
 function binarySearch($fileName, $key)
 {
     $file = new SplFileObject($fileName);
