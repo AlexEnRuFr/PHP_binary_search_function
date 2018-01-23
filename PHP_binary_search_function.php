@@ -11,7 +11,7 @@ function binarySearch($fileName, $key)
     $str = $file->current();
     $str = strstr($str, "\t", true);
     if ($key == $str) {
-        return $key;
+        return $str;
     } elseif ($key < $str) {
         return 'undef';
     }
@@ -47,7 +47,7 @@ function binarySearch($fileName, $key)
         } elseif ($key < $str) {
             $point = $point - round($fraction * $fileSize);
         } elseif ($key == $str) {
-            return $key;
+            return $str;
         }
 
     }
