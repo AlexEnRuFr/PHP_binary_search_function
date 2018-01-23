@@ -57,6 +57,5 @@ function binarySearch($fileName, $key)
 
 
 echo binarySearch($fileName, $key);
-sleep(100);
 
 ?>
